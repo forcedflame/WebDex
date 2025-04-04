@@ -1,0 +1,32 @@
+body{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+}
+
+#name{
+    color: blue;
+}
+
+#first-col{
+    overflow-y: scroll;
+    height: 400px;
+    width: 200px;
+    border-top: 2px;
+}
+#tabs-container{
+    display: flex;
+}
+
+#second-col{
+    margin-left: 15px;
+}
+#card-container{
+    width: 200px;
+    background-image: url("colorlesscard.png");
+}
+#img{
+    max-width: 200px;
+    max-height: 100px;
+}
