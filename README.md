@@ -1,2 +1,2 @@
 # WebDex
-A chrome extension to turn web-links into cards!
+Turn image address links into cards of your choosing!
