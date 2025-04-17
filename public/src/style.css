@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background: #2c77c7;
+  background: linear-gradient(90deg, rgba(44, 119, 199, 1) 15%, rgba(87, 199, 133, 1) 60%, rgba(255, 255, 255, 1) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  place-items: center;
+}
+
+#background{
+  padding: 10px;
+  display: flex;
+  border-radius: 10%;
+  margin-top: 80px;
+}
+#brand-name{
+  display: flex;
+  width: 200px;
+  font-style: italic;
+}
+#header-logo{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+#name{
+  color: blue;
+  margin-left: 5px;
+}
+
+#first-col{
+  border-top: 2px;
+  width: 255px;
+  height: 500px;
+  background-color: antiquewhite;
+  padding: 16px;
+  border: 8px solid teal;
+  font-family: "Archivo", "Nunito";
+}
+
+#second-col{
+  margin-left: 15px;
+  text-overflow: clip;
+  width: 265px;
+  height: 515px;
+  font-family: "Archivo", "Nunito";
+}
+
+#third-col{
+  border-top: 2px;
+  width: 255px;
+  height: 500px;
+  background-color: antiquewhite;
+  padding: 16px;
+  border: 8px solid teal;
+  font-family: "Archivo", "Nunito";
+  position: relative;
+}
+
+#user-prompt{
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
+
+#promptInput{
+  width: 235px;
+}
+
+#card-container{
+  position: relative;
+
+}
+#img{
+  position: absolute;
+  top: 37px; 
+  left: 23px; 
+  width: 204px; 
+  height: 136px;
+}
+#card{
+  max-width: 250px;
+  max-height: 400px;
+}
+#card-name{
+  position: absolute;
+  font-size: 15px;
+  top: 6px;
+  left: 18px;
+  width: 200px;
+  height: 30px;
+  font-family: 'Roboto Condensed';
+}
+
+#card-effect{
+  position: absolute;
+  font-size: 6px;
+  top: 266px;
+  left: 18px;
+  width: 210px;
+  height: 30px;
+}
+
+#generateBtn{
+  width: 200px;
+  background-color: to;
+}
+.tabs{
+  display: flex;
+  margin-top: 10px;
+}
+.tab-button {
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+.tab-button.active {
+  background-color: #4287f5;
+  color: white;
+}
+
+#urlInput{
+  width: 250px;
+}
+
+#desc-container{
+  overflow-y: scroll;
+  height: 300px;
+}
+
+#card-level{
+  position: absolute;
+  font-size: 14px;
+  top: 33px;
+  left: 192px;
+  width: 30px;
+  height: 30px;
+  color: rgb(255, 247, 0)
+}
+
+#card-atk{
+  position: absolute;
+  font-size: 9px;
+  top: 325px;
+  left: 159px;
+  width: 30px;
+  height: 30px;
+}
+
+#card-def{
+  position: absolute;
+  font-size: 9px;
+  top: 325px;
+  left: 209px;
+  width: 30px;
+  height: 30px;
+}
+
+#attribute{
+  position: absolute;
+  top: 14px;
+  left: 209px;
+  width: 27px;
+  height: 27px;
+}
+
+#example-prompt{
+  font-size: 12px;
+}

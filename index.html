@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebDex - Mufaddal Kapadia</title>
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+  </head>
+  <body>
+    <div id="background">
+      <div id="first-col">
+        <div id="brand-name">
+          <img id="header-logo" src="logo.png">
+          <h1 id="name">WebDex</h1>
+        </div>
+        <h2>Generate Creative Cards!</h2>
+        <p>Created by Mufaddal Kapadia</p>
+        <br>
+        <h2>How to Use:</h2>
+        <p>1. Right Click an Image.</p>
+        <p>2. Copy Image Url/Link Address.</p>
+        <p>3. Paste image link.</p>
+        <p>4. Press "Get Card" Button!</p>
+
+        <button id="generateBtn">Get Card!</button>
+      </div>
+
+      <div id="second-col">
+        <input type="text" id="urlInput" placeholder="Enter Image URL">
+        <div class="tabs">
+          <button class="tab-button active" id="pokemon">Pokemon</button>
+          <button class="tab-button" id="yugioh">Yu-Gi-Oh!</button>
+          <button class="tab-button" id="coming-soon" disabled>Coming Soon</button>
+        </div>
+        <h2>Generated Card:</h2>
+        <div id="card-container">
+          <img id="card" src="colorlesscard.png" alt="card template">
+          <img id="img" alt="copied image">
+          <img id="attribute" alt="?">
+          <h2 id="card-name"></h2>
+          <p id="card-effect"></p>
+          <h2 id="card-level"></h2>
+          <h2 id="card-atk"></h2>
+          <h2 id="card-def"></h2>
+        </div>
+      </div>
+
+      <div id="third-col">
+        <div id="desc-container">
+          <h2>Card Description:</h2>
+          <p id="description"></p>
+        </div>
+        <div id="user-prompt">
+          <h2>Enter a Prompt /Additional Info Here.</h2>
+          <p id="example-prompt">Example: "Make it an (Xyz) Monster", "Level 2" (Use Level for Xyz), Archetype: "Big Man" -> (Name of Card will contain "Big Man").</p>
+          <input type="text" id="promptInput" defaultValue="N/A">
+        </div>
+      </div>
+    </div>
+    <script src="src/main2.js"></script>
+  </body>
+</html>
